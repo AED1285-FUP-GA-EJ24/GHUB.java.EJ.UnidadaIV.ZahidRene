@@ -1,6 +1,7 @@
 package miPrincipal;
 import demoArreglo.DemoArreglos;
 import productoArreglo.ProductoArreglo;
+import promedio.Promedio;
 import sumaArreglos.SumaArreglo;
 
 import java.util.Scanner;
@@ -16,8 +17,8 @@ public class Principal {
             System.out.println("**************************************");
             System.out.println("* 1) Demo de arreglos unidimensionales"); 
             System.out.println("* 2) Suma de un arreglo               "); 
-            System.out.println("* 3) "); 
-            System.out.println("* 4) "); 
+            System.out.println("* 3) Producto de un arreglo           "); 
+            System.out.println("* 4) Promedio de calificaciones"); 
             System.out.println("* 5) "); 
             System.out.println();
             System.out.println("* 99) Salir"); 
@@ -36,9 +37,12 @@ public class Principal {
                    break;
                 case 3:
                 ProductoArreglo objProductoArreglo = new ProductoArreglo();
-                objProductoArreglo.ProductoArreglo();
+                objProductoArreglo.productoArreglo();
                 break;
                 case 4:
+                Promedio objPromedio=new Promedio();
+                objPromedio.promedio();
+                break;
                 case 5:
 
                 case 99:

@@ -3,7 +3,7 @@ package productoArreglo;
 import java.util.Scanner;
 
 public class ProductoArreglo {
-    public void ProductoArreglo() {
+    public void productoArreglo() {
         Scanner teclado = new Scanner(System.in);
         int []a;
         a = new int[5];
