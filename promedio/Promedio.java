@@ -9,26 +9,22 @@ import java.util.Scanner;
 
 public class Promedio {
     public void promedio() {
-        Scanner teclado=new Scanner(System.in);
-        float calf[]; 
-
-        int n;
-        System.out.println("Cuantas calificaciones capturaras?");
-        n=teclado.nextInt();
-        calf=new float[n];
-        float acum_calif=0;
-        for(int i=0;i<n;i++){
-            System.out.println("Prporciona la calificacion"+i+1+":");
-            calf[i]=teclado.nextFloat();
-            acum_calif=acum_calif+calf[i];
-        }
-        float prom= acum_calif/n;
-        System.out.println("Promedio: "+prom);
-    }
-    public void capturar() {
-        
-    }
-    public void () {
-        
+         //definir el objeto Scanner
+         Scanner teclado = new Scanner(System.in);
+         //declarar el arreglo
+         float calf[]; //declarando un arreglo de nombre calf y de tipo float
+         int n;//almacena el número de calificaciones
+         System.out.println("¿cuántas calificaciones capturaras?");
+         n = teclado.nextInt();
+         calf=new float[n]; //creando el arreglo calf con n elementos
+         //capturo las calificaciones
+         float acum_calf=0;
+         for(int i=0;i<calf.length;i++){ //length regresa el tamaño del arrego
+             System.out.print("Proporciona la calificación "+ (i+1) +": ");
+             calf[i]= teclado.nextFloat();
+             acum_calf = acum_calf+calf[i];
+         }
+         float prom= acum_calf/calf.length;
+         System.out.println("Promedio = "+prom);
     }
 }

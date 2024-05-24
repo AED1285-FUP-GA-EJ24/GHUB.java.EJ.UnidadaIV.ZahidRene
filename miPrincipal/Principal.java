@@ -18,8 +18,8 @@ public class Principal {
             System.out.println("* 1) Demo de arreglos unidimensionales"); 
             System.out.println("* 2) Suma de un arreglo               "); 
             System.out.println("* 3) Producto de un arreglo           "); 
-            System.out.println("* 4) Promedio de calificaciones"); 
-            System.out.println("* 5) "); 
+            System.out.println("* 4) Promedio de calificaciones       "); 
+            System.out.println("* 5) Promedio de calificaciones v2    "); 
             System.out.println();
             System.out.println("* 99) Salir"); 
             System.out.println("**************************************");
