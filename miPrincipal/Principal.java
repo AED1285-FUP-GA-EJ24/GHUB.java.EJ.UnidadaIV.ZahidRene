@@ -1,7 +1,10 @@
 package miPrincipal;
 import demoArreglo.DemoArreglos;
+import generacionNombres.GeneracionNombres;
+import inicializacionArreglos.InicializacionArreglos;
 import productoArreglo.ProductoArreglo;
 import promedio.Promedio;
+import promedio.Promedio_2;
 import sumaArreglos.SumaArreglo;
 
 import java.util.Scanner;
@@ -20,6 +23,7 @@ public class Principal {
             System.out.println("* 3) Producto de un arreglo           "); 
             System.out.println("* 4) Promedio de calificaciones       "); 
             System.out.println("* 5) Promedio de calificaciones v2    "); 
+            System.out.println("* 7) Gneración aleatorio de nombres   ");
             System.out.println();
             System.out.println("* 99) Salir"); 
             System.out.println("**************************************");
@@ -44,6 +48,19 @@ public class Principal {
                 objPromedio.promedio();
                 break;
                 case 5:
+                Promedio_2 objPromedio2 = new Promedio_2();
+                objPromedio2.promedio_2();
+                break;
+                case 6:
+                   //crea el objeto
+                   InicializacionArreglos objIarr = new InicializacionArreglos();
+                   objIarr.inicializacionArreglos();
+                break;
+                case 7:
+                   //crear el objeto
+                   GeneracionNombres objNom = new GeneracionNombres();
+                   objNom.generacionNombres();
+                break;
 
                 case 99:
                     System.out.println("Hasta luego");

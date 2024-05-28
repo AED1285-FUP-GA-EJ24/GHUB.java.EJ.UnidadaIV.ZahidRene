@@ -1,3 +1,9 @@
+./promedio/Promedio.java
+./promedio/Promedio_2.java
 ./miTest/AppTest.java
-./demoArreglo/demoArreglo.java
+./sumaArreglos/SumaArreglo.java
+./demoArreglo/DemoArreglos.java
+./inicializacionArreglos/InicializacionArreglos.java
 ./miPrincipal/Principal.java
+./generacionNombres/GeneracionNombres.java
+./productoArreglo/ProductoArreglo.java
