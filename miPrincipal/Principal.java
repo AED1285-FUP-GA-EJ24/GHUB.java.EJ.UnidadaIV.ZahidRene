@@ -9,6 +9,8 @@ import sumaArreglos.SumaArreglo;
 
 import java.util.Scanner;
 
+import arreglosMultidimensionales.ArreglosMultidimensionales;
+
 public class Principal {
     
     public static void main(String[] args) {
@@ -24,6 +26,7 @@ public class Principal {
             System.out.println("* 4) Promedio de calificaciones       "); 
             System.out.println("* 5) Promedio de calificaciones v2    "); 
             System.out.println("* 7) Gneración aleatorio de nombres   ");
+            System.out.println("* 8) Gneración arreglos multidimencionales   ");
             System.out.println();
             System.out.println("* 99) Salir"); 
             System.out.println("**************************************");
@@ -61,7 +64,11 @@ public class Principal {
                    GeneracionNombres objNom = new GeneracionNombres();
                    objNom.generacionNombres();
                 break;
-
+                case 8:
+                   //crear el objeto
+                   ArreglosMultidimensionales objArreglosMultidimensionales = new ArreglosMultidimensionales();
+                   objArreglosMultidimensionales.arreglosMultidimensionales();
+                break;
                 case 99:
                     System.out.println("Hasta luego");
                     break;
