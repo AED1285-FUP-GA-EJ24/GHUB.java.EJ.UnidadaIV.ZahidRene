@@ -3,6 +3,7 @@
 ./miTest/AppTest.java
 ./sumaArreglos/SumaArreglo.java
 ./demoArreglo/DemoArreglos.java
+./arreglosMultidimensionales/ArreglosMultidimensionales.java
 ./inicializacionArreglos/InicializacionArreglos.java
 ./miPrincipal/Principal.java
 ./generacionNombres/GeneracionNombres.java
