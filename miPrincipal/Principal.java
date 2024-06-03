@@ -10,6 +10,8 @@ import sumaArreglos.SumaArreglo;
 import java.util.Scanner;
 
 import arreglosMultidimensionales.ArreglosMultidimensionales;
+import calculoSalario.CalcularSalario;
+import calculoSalario.CalcularSalario2;
 
 public class Principal {
     
@@ -27,6 +29,8 @@ public class Principal {
             System.out.println("* 5) Promedio de calificaciones v2    "); 
             System.out.println("* 7) Gneración aleatorio de nombres   ");
             System.out.println("* 8) Gneración arreglos multidimencionales   ");
+            System.out.println("* 9) Calculo salario versión 1        ");
+            System.out.println("* 9) Calculo salario versión 2        ");
             System.out.println();
             System.out.println("* 99) Salir"); 
             System.out.println("**************************************");
@@ -68,6 +72,16 @@ public class Principal {
                    //crear el objeto
                    ArreglosMultidimensionales objArreglosMultidimensionales = new ArreglosMultidimensionales();
                    objArreglosMultidimensionales.arreglosMultidimensionales();
+                break;
+                case 9:
+                //crear el objeto
+                CalcularSalario objCalcularSalario = new CalcularSalario();
+                objCalcularSalario.Calcular();
+                break;
+                case 10:
+                //crear el objeto
+                CalcularSalario2 objCalcularSalario2 = new CalcularSalario2();
+                objCalcularSalario2.calcular2();
                 break;
                 case 99:
                     System.out.println("Hasta luego");
