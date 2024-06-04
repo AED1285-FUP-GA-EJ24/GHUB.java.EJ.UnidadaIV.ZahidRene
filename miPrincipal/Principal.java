@@ -2,6 +2,7 @@ package miPrincipal;
 import demoArreglo.DemoArreglos;
 import generacionNombres.GeneracionNombres;
 import inicializacionArreglos.InicializacionArreglos;
+import leerAccederArreglo.LeerAccederArreglo;
 import productoArreglo.ProductoArreglo;
 import promedio.Promedio;
 import promedio.Promedio_2;
@@ -74,11 +75,15 @@ public class Principal {
                    objArreglosMultidimensionales.arreglosMultidimensionales();
                 break;
                 case 9:
+                  //accediente a un método estático 
+                  LeerAccederArreglo.leerAccederArreglo();
+                break;
+                case 10:
                 //crear el objeto
                 CalcularSalario objCalcularSalario = new CalcularSalario();
                 objCalcularSalario.Calcular();
                 break;
-                case 10:
+                case 11:
                 //crear el objeto
                 CalcularSalario2 objCalcularSalario2 = new CalcularSalario2();
                 objCalcularSalario2.calcular2();
